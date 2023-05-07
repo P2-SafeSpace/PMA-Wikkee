@@ -23,6 +23,6 @@ public class ClickButton : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
     {
         _img.sprite = _default;
         _source.PlayOneShot(_uncompressedClip);
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene(0); 
     }
 }
